@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuidadActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSERTAR DATOS CIUDAD"
+        android:textSize="33dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"></TextView>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/blue"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Código:"
+            android:textSize="35dp"></TextView>
+        <EditText
+            android:id="@+id/codigoCiudad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp" >
+
+        </EditText>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/blue"
+        android:layout_marginTop="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textSize="35dp"></TextView>
+        <EditText
+            android:id="@+id/nombreCiudad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp" >
+
+        </EditText>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btInsertCuidad"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inbsertarBoton"
+        android:textSize="40dp">
+
+    </Button>
+
+
+</LinearLayout>
